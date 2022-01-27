@@ -7,100 +7,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/destinations.css">
     <title>Travel Site</title>
 </head>
 
 <body>
-    <nav class="main-nav">
-        <div>
-            <a href="/">
-                <h3 class="main-nav__company-name">Travel Site</h3>
-            </a>
-        </div>
-        <ul class="main-nav__pages-list">
-            <li class="main-nav__pages-list-item">
-                <a class="main-nav__pages-link" href="/">Home</a>
+    <nav class="nav">
+        <a class="nav__company-name-container" href="/">
+            <h3 class="nav__company-name">Travel Site</h3>
+        </a>
+        <ul class="nav__pages-list">
+            <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/">Home</a>
             </li>
-            <li class="main-nav__pages-list-item">
-                <a class="main-nav__pages-link" href="/pages/hawaii.html">Hawaii</a>
+            <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/pages/hawaii.html">Hawaii</a>
             </li>
-            <li class="main-nav__pages-list-item">
-                <a class="main-nav__pages-link" href="/pages/iceland.html">Iceland</a>
+            <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/pages/iceland.html">Iceland</a>
             </li>
-            <li class="main-nav__pages-list-item">
-                <a class="main-nav__pages-link" href="/pages/greece.html">Greece</a>
+            <li class="nav__pages-list-item">
+                <a class="nav__pages-link" href="/pages/greece.html">Greece</a>
             </li>
         </ul>
     </nav>
 
     <main>
-        <header>
-            <div class="hero-section__left-side-container">
+        <header class="hero-section">
+            <div class="hero-section__article">
                 <h1 class="hero-section__title">Travelling Comes With Endless Discoveries</h1>
                 <p class="hero-section__description">Don't let your dreams be just dreams. Experience the world by
                     booking a vacation with us now.</p>
-                <button class="hero-section__button" type="button">Get Started</button>
+                <a class="hero-section__button">Get Started</a>
+
             </div>
-            <div class="hero-section__right-side-container">
+            <div class="hero-section__image-container">
                 <img class="hero-image" src="/assets/images/hero.png" alt="hero image">
             </div>
         </header>
-
-        <section>
-            <h2>Recommendations</h2>
-            <a>
-                <div>
-                    <h2>Hawaii</h2>
+        <section class="destination-section">
+            <div class="destination-section__title-container">
+                <h2 class="destination-section__title">Recommendations</h2>
+            </div>
+            <a class="destination-section__link">
+                <div class="destination-section__card">
+                    <h2 class="destination-section__place">Hawaii</h2>
+                    <div>
+            </a>
+            <a class="destination-section__link">
+                <div class="destination-section__card">
+                    <h2 class="destination-section__place">Iceland</h2>
                 </div>
             </a>
-            <div>
-                <h2>Iceland</h2>
-            </div>
-            <a>
-                <div>
-                    <h2>Greece</h2>
+            <a class="destination-section__link">
+                <div class="destination-section__card">
+                    <h2 class="destination-section__place">Greece</h2>
                 </div>
             </a>
         </section>
     </main>
-
     <footer>
-        <section>
-            <div>
-                <h3>Contact</h3>
+        <section class="contact">
+            <div class="contact__title-container">
+                <h3 class="contact__title">Contact</h3>
             </div>
-            <div>
-                <p>Email</p>
+            <div class="contact__description-container">
+                <p class="contact__description">Email</p>
             </div>
-            <div>
-                <p>info@travelsite.com</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h3>Hours</h3>
-                <p>Monday - Friday</p>
-                <p>9:00 AM - 5:00 PM</p>
-            </div>
-            <div>
-                <p>Saturday</p>
-                <p>10:00 AM - 4:00 PM</p>
-            </div>
-            <div>
-                <p>Sunday</p>
-                <p>Closed</p>
+            <div class="contact__description-container">
+                <p class="contact__description">info@travelsite.com</p>
             </div>
         </section>
-        <section class="footer-icon_container">
+        <section class="hours">
+            <div class="hours__title-container">
+                <h3 class="hours__title">Contact</h3>
+            </div>
+            <div class="hours__description-container">
+                <p class="hours__description">Monday - Friday</p>
+                <p class="hours__description">9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="hours__description-container">
+                <p class="hours__description">Saturday</p>
+                <p class="hours__description">10:00 AM - 4:00 PM</p>
+            </div>
+            <div class="hours__description-container">
+                <p class="hours__description">Sunday</p>
+                <p class="hours__description">Closed</p>
+            </div>
+        </section>
+        <section class="social">
+            <div class="social__title-container">
+                <h3 class="social__title">Contact</h3>
+            </div>
             <a href="https://www.facebook.com/">
-                <img class="footer-icon" src="/assets/logos/icon-facebook.png" alt="facebook">
+                <img class="social__icon" src="/assets/logos/icon-facebook.png" alt="facebook">
             </a>
             <a href="https://www.twitter.com/">
-                <img class="footer-icon" src="/assets/logos/icon-twitter.png" alt="twitter">
+                <img class="social__icon" src="/assets/logos/icon-twitter.png" alt="twitter">
             </a>
             <a href="https://www.instagram.com/">
-                <img class="footer-icon" src="/assets/logos/icon-instagram.png" alt="instagram">
+                <img class="social__icon" src="/assets/logos/icon-instagram.png" alt="instagram">
             </a>
         </section>
     </footer>
