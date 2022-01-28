@@ -2,49 +2,98 @@
 
 .hero-section {
     display: flex;
+    margin: 2rem 0 0 0;
     width: 100%;
-    height: 31.25rempx;
+    height: 35rem;
     background-color: #fefaf5;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .hero-section__title {
     color: #335576;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+   
+}
+
+.hero-section__description {
+    color: #335576;
+    margin: 1rem 0;
+
 }
 
 .hero-image {
-    max-height: 30rem;
+    max-height: 25rem;
+}
+
+.hero-section__article {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 5rem 0;
 }
 
 /* recommendations section starts */
+
+.destination-section__card-container {
+    margin: 1.5rem;
+}
+.destination-section__title {
+    color: #335576;
+    padding: 0 0 0 3.125rem ;
+    margin: 2.5rem 0 .5rem 0;
+}
+
+.destination-section__place {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
 
 .destination-section__card-section-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
 }
 
-.destination-section__card---hawaii {
+.destination-section__card---image-hawaii {
     background-image: url("/assets/images/hawaii.jpg");
-    width: 21.875rem;
-    height: 28.125rem;
+    width: 15rem;
+    height: 24rem;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    position: relative;
 }
 
-.destination-section__card---iceland {
+.destination-section__card---image-iceland {
     background-image: url("/assets/images/iceland.jpg");
-    width: 21.875rem;
-    height: 28.125rem;
+    width: 15rem;
+    height: 24rem;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+    border: 1px rgba(255, 255, 255, 0.20) solid;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    position: relative;
 }
 
-.destination-section__card---greece {
+.destination-section__card---image-greece {
     background-image: url("/assets/images/greece.jpg");
-    width: 21.875rem;
-    height: 28.125rem;
+    width: 15rem;
+    height: 24rem;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+    border: 1px rgba(255, 255, 255, 0.20) solid;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    position: relative;
 }

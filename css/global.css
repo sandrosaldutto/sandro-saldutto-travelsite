@@ -1,7 +1,18 @@
 html {
     font-size: 16px;
     font-family: verdana;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+/* nav */
 
 .nav {
     background-color: #ffffff;
@@ -11,13 +22,11 @@ html {
     top: 0;
     width: 100%;
 }
-
-main {
-    margin: 100px 0 0 0;
-}
-
 .nav__pages-list {
+    width: 18rem;
     display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem 0 0;
 }
 
 .nav__pages-list-item {
@@ -26,10 +35,9 @@ main {
 
 .nav__pages-list-item--underline {
     box-sizing: border-box;
-    border-bottom: 4PX solid #DB7A4E;
+    border-bottom: 3px solid #DB7A4E;
     list-style-type: none;
 }
-
 
 .nav__pages-link {
     text-decoration: none;
@@ -42,4 +50,55 @@ main {
 
 .nav__company-name {
     color: #335576;
+    padding: 0 0 0 3.125rem;
 }
+
+/* footer */
+
+.footer {
+    background-color: #fff0ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+  }
+  
+.footer__section-title-container {
+    display: flex;
+}
+
+.footer__description-container {
+    display: flex;
+
+}
+
+.footer__day-time-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__icon--height {
+    width: 25px;
+    height: 50px;
+}
+
+.footer__section-icon-container {
+    display: flex;
+    
+
+}
+.footer__icon {
+    width: 50px;
+    height: 50px;
+}
+  
