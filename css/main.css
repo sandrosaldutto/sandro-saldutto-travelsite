@@ -10,54 +10,62 @@
     align-items: center;
 }
 
-.hero-section__title {
-    color: #335576;
-    margin: 1rem 0;
-    width: 70%;
-   
-}
-
-.hero-section__description {
-    color: #335576;
-    margin: 1rem 0;
-    font-weight: 300;
-    font-size: .8rem;
-    width: 70%;
-
+.hero-section__article {
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 3rem 6rem;
 }
 
 .hero-image {
     max-height: 22rem;
+    padding: 0 6rem 0 0;
 }
 
-.hero-section__article {
-    height: 20rem;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.hero-section__title {
+    color: #335576;
+    margin: 0;
+    font-size: 2.2rem;
+    width: 70%;
+}
+
+.hero-section__description {
+    color: #335576;
+    font-size: .875rem;
+    width: 100%;
+    margin: .15rem;
+}
+
+.hero-section__button-contatiner {
+    background-color: #DB7A4E;
+    width: 10em;
+    height: 2.25rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.hero-section__button {
+    color: #ffffff;
+    position: absolute;
+    top: .6rem;
+    left: 2.6rem;
+    font-weight: 300;
+    font-size: .8rem;
+    margin: 0;
 }
 
 
 /* recommendations section starts */
 
-.destination-section__card-container {
-    margin: 1.5rem;
-}
 .destination-section__title {
     color: #335576;
-    padding: 0 0 0 3.125rem ;
+    padding: 0 0 0 6rem;
     margin: 2.5rem 0 .5rem 0;
-    font-size: 1.25rem;
-}
-
-.destination-section__place {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .destination-section__card-section-container {
@@ -65,12 +73,25 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: .5rem 0;
+    margin: 2rem 0 5rem 0 ;
+}
+
+.destination-section__card-container {
+    margin: 0 1rem;
+}
+
+.destination-section__place {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    margin: 0;
+    color: #ffffff; 
+    font-size: 1.5rem;
 }
 
 .destination-section__card---image-hawaii {
     background-image: url("/assets/images/hawaii.jpg");
-    width: 15rem;
+    width: 16rem;
     height: 24rem;
     background-size: cover;
     background-position: center;
@@ -82,7 +103,7 @@
 
 .destination-section__card---image-iceland {
     background-image: url("/assets/images/iceland.jpg");
-    width: 15rem;
+    width: 16rem;
     height: 24rem;
     background-size: cover;
     background-position: center;
@@ -94,7 +115,7 @@
 
 .destination-section__card---image-greece {
     background-image: url("/assets/images/greece.jpg");
-    width: 15rem;
+    width: 16rem;
     height: 24rem;
     background-size: cover;
     background-position: center;
