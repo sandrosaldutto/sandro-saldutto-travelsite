@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+    font-family: verdana;
+}
+
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    margin: 100px 0 0 0;
+}
+
+.nav__pages-list {
+    display: flex;
+}
+
+.nav__pages-list-item {
+    list-style-type: none;
+}
+
+.nav__pages-list-item--underline {
+    box-sizing: border-box;
+    border-bottom: 4PX solid #DB7A4E;
+    list-style-type: none;
+}
+
+
+.nav__pages-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__company-name-container {
+    text-decoration: none;
+}
+
+.nav__company-name {
+    color: #335576;
+}
