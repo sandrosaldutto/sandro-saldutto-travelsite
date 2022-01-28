@@ -4,35 +4,40 @@
     display: flex;
     margin: 2rem 0 0 0;
     width: 100%;
-    height: 35rem;
+    height: 33rem;
     background-color: #fefaf5;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero-section__title {
     color: #335576;
-    font-size: 2.5rem;
     margin: 1rem 0;
+    width: 70%;
    
 }
 
 .hero-section__description {
     color: #335576;
     margin: 1rem 0;
+    font-weight: 300;
+    font-size: .8rem;
+    width: 70%;
 
 }
 
 .hero-image {
-    max-height: 25rem;
+    max-height: 22rem;
 }
 
 .hero-section__article {
+    height: 20rem;
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 5rem 0;
+    justify-content: flex-start;
 }
+
 
 /* recommendations section starts */
 
@@ -43,6 +48,7 @@
     color: #335576;
     padding: 0 0 0 3.125rem ;
     margin: 2.5rem 0 .5rem 0;
+    font-size: 1.25rem;
 }
 
 .destination-section__place {
