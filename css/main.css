@@ -58,8 +58,7 @@
     margin: 0;
 }
 
-
-/* recommendations section starts */
+/* destinations section starts */
 
 .destination-section__title {
     color: #335576;
@@ -75,9 +74,48 @@
     align-items: center;
     margin: 2rem 0 5rem 0 ;
 }
+.destination-section__card-hawaii {
+    background-image: url("/assets/images/hawaii.jpg");
+    box-sizing: border-box;
+    border: 1.5px rgba(201, 201, 201, 0.774) solid;
+    width: 15.5rem;
+    height: 23.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);   
+}
+
+.destination-section__card-iceland {
+    background-image: url("/assets/images/iceland.jpg");
+    box-sizing: border-box;
+    border: 1.5px rgba(201, 201, 201, 0.774) solid;
+    width: 15.5rem;
+    height: 23.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);   
+}
+
+.destination-section__card-greece {
+    background-image: url("/assets/images/greece.jpg");
+    box-sizing: border-box;
+    border: 1.5px rgba(201, 201, 201, 0.774) solid;
+    width: 15.5rem;
+    height: 23.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);   
+}
+
 
 .destination-section__card-container {
-    margin: 0 1rem;
+    margin: 0 1.125rem;
 }
 
 .destination-section__place {
@@ -86,41 +124,5 @@
     right: 1rem;
     margin: 0;
     color: #ffffff; 
-    font-size: 1.5rem;
-}
-
-.destination-section__card---image-hawaii {
-    background-image: url("/assets/images/hawaii.jpg");
-    width: 16rem;
-    height: 24rem;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    border: 1px rgba(255, 255, 255, 0.2) solid;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
-    position: relative;
-}
-
-.destination-section__card---image-iceland {
-    background-image: url("/assets/images/iceland.jpg");
-    width: 16rem;
-    height: 24rem;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    border: 1px rgba(255, 255, 255, 0.20) solid;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
-    position: relative;
-}
-
-.destination-section__card---image-greece {
-    background-image: url("/assets/images/greece.jpg");
-    width: 16rem;
-    height: 24rem;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    border: 1px rgba(255, 255, 255, 0.20) solid;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
-    position: relative;
+    font-size: 1.25rem;
 }
