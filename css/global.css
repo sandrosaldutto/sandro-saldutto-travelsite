@@ -12,6 +12,10 @@ a {
     text-decoration: none;
   }
 
+h1 {
+    margin: 0;
+}
+
 /* nav */
 
 .nav {
@@ -67,7 +71,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .footer-section__container{
@@ -83,7 +87,7 @@ a {
 }
 
 .footer-section__title {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.2rem 0;
     color: #335576;
     font-size: 1.25rem;
 }
@@ -93,7 +97,7 @@ a {
 }
 
 .footer-section__descrp-orange {
-    margin: 0 0 1rem 0;
+    margin: 0 0 .75rem;
     color: #DB7A4E;
     font-weight: 300;
     font-size: .6rem;
@@ -110,6 +114,7 @@ a {
 
 .footer-icon {
     height: 22px;
+    padding-top: 1.2rem;
 }
 
 .footer-icon-middle {
